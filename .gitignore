@@ -1,2 +1,85 @@
-# data/
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+.env/
+.venv/
+env/
+ENV/
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-workspace
+*.sublime-project
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Data files
+data/raw/
+data/processed/
+data/external/
+*.csv
 *.json
+*.parquet
+*.feather
+*.xlsx
+*.db
+*.sqlite
+
+# Logs and databases
+*.log
+*.sql
+*.sqlite3
+
+# Python packaging and distribution
+*.egg-info/
+dist/
+build/
+*.egg
+*.whl
+
+# PyTest cache
+.pytest_cache/
+
+# macOS files
+.DS_Store
+
+# Streamlit cache
+.streamlit/
+
+# Plotly cache
+.plotly/
+
+# Dash cache
+.dash/
+
+# Output and results
+results/
+*.png
+*.jpg
+*.pdf
+*.html
+*.gz
+*.zip
+*.tar
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Misc
+*.bak
+*.tmp
+*.temp
+*.pid
+*.pid.lock
+*.lock
