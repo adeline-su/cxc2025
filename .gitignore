@@ -21,6 +21,7 @@ ENV/
 # Jupyter Notebook checkpoints
 .ipynb_checkpoints/
 *.ipynb_checkpoints
+.jupyter
 
 # Data files
 data/raw/
@@ -33,6 +34,7 @@ data/external/
 *.xlsx
 *.db
 *.sqlite
+fedarato/2025_csv
 
 # Logs and databases
 *.log
