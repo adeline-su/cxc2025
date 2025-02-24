@@ -26,5 +26,6 @@ with open("notebooks/Filtered_Event_Flowchart_with_Likeliest_Transition_Percenta
     fig4 = pio.from_json(f.read())
 st.plotly_chart(fig4, key="fig4")
 
+st.image('notebooks/julia_eda.png')
 
 
