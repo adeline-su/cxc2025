@@ -3,7 +3,7 @@ import plotly.io as pio
 
 st.set_page_config(layout="wide")
 
-st.write("## User Journey Mapping Challenge")
+st.write("# User Journey Mapping Challenge")
 
 # User Journey Flow
 with open("../json/User_Journey_Flow.json", "r") as f:
