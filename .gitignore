@@ -65,16 +65,6 @@ build/
 # Dash cache
 .dash/
 
-# Output and results
-results/
-*.png
-*.jpg
-*.pdf
-*.html
-*.gz
-*.zip
-*.tar
-
 # Environment variables
 .env
 .env.local
