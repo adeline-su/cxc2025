@@ -3,13 +3,16 @@ import plotly.io as pio
 
 st.set_page_config(layout="wide")
 
-st.write("## Key Insights")
+st.write("## Insights")
 
 # Distribution_of_Number_of_Events
 st.image('notebooks/Distribution_of_Number_of_Events.png')
 
 # Scatter_Plot_of_Number_of_Events_vs_Elapsed_Time
 st.image('notebooks/Scatter_Plot_of_Number_of_Events_vs_Elapsed_Time.png')
+
+st.image('notebooks/julia_eda.png')
+
 
 # Event Types Hierarchy
 with open("notebooks/Event_Types_Sankey_Diagram.json", "r") as f:
@@ -26,6 +29,5 @@ with open("notebooks/Filtered_Event_Flowchart_with_Likeliest_Transition_Percenta
     fig4 = pio.from_json(f.read())
 st.plotly_chart(fig4, key="fig4")
 
-st.image('notebooks/julia_eda.png')
 
 
