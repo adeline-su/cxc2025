@@ -24,9 +24,11 @@ ENV/
 .jupyter
 
 # Data files
-data/raw/
-data/processed/
-data/external/
+
+datasets/*
+datasets/raw/
+datasets/processed/
+datasets/external/
 *.csv
 *.json
 *.parquet
